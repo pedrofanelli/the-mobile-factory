@@ -21,6 +21,7 @@ The project was built using the following technologies:
 - Express
 - PostgreSQL - Sequelize
 - JWT
+- Nodemailer
 - React (Vite.js)
 - Redux
 - MUI
