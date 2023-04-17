@@ -8,7 +8,7 @@ The project includes the following features:
 
 - See all the available smartphones
 - Allow users to create an account and log in
-- Fill the cart and make the checkout to buy any smartphone available
+- Fill the cart and make the checkout to buy any smartphone available (receiving an email after the successful purchase)
 - Special type of user, the admin
 - Admins can edit categories, delete/add products, see all the client orders
 - Admins can delete users, or promote them to be admin
@@ -40,7 +40,6 @@ cd back | cd front
 --------|---------
 npm i   | npm i
 npm run server   | npm run dev
-
 
 ## Credits
 
