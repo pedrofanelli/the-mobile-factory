@@ -1,28 +1,49 @@
 # The mobile factory :iphone:
 
-The mobile factory es un e-commerce dedicado a smartphones.
-En la app , los customers podran crearse un usuario para comenzar a llenar sus carritos y , finalmente, realizar la compra ( checkout 💵 ). 
+The mobile factory is an e-commerce dedicated to sell smartphones, using the [Device Specs API](https://www.device-specs.io/categories/smartphones) to obtain information about the products.
 
-Tambien existen usuarios admin/owner. Ellos podran : editar categorias, eliminar/agregar productos, verificar las ordenes de todos los clientes.
+## Features
 
-## Instalación :hammer:
+The project includes the following features:
 
-git clone https://github.com/MatiasOrlando/the-mobile-factory.git
+- See all the available smartphones
+- Allow users to create an account and log in
+- Fill the cart and make the checkout to buy any smartphone available
+- Special type of user, the admin
+- Admins can edit categories, delete/add products, see all the client orders
+- Admins can delete users, or promote them to be admin
+
+## Technologies Used
+
+The project was built using the following technologies:
+
+- Node.js
+- Express
+- PostgreSQL - Sequelize
+- JWT
+- React (Vite.js)
+- Redux
+- MUI
+- Device Specs API
+
+## Getting Started
+
+To run the project, follow these steps:
+
+1. Clone the repository
+2. Register for a free API key on the [Device Specs Website](https://www.device-specs.io/categories/smartphones)
+3. Replace the `API_KEY` variable in a `.env` file with your API key
+4. Run in your terminal the following commands:
 
 cd back | cd front
 --------|---------
 npm i   | npm i
+npm run server   | npm run dev
 
-cd back     | cd front
-------------|---------
-npm run server | npm run dev
 
-## Versionado :pencil:
+## Credits
 
-### v1.0.0 - 17 de Marzo, 2023
-* Version inicial
-
-## Autores :rocket:
+This project was created by:
 
 * Guido Bonesi
 * Cristian Blanco
